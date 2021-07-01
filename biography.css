@@ -1,0 +1,94 @@
+body{
+    background: url("images\ \(1\).jpg") center;
+    font: normal 10px/1.5 "cursive,sans-serif";
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    
+    
+    
+    
+    
+}
+
+
+
+
+nav{
+  position: fixed;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color:	rgba(255, 200,0.8);
+  border: 5px solid blue;
+  top: 0%;
+  text-shadow: 2px 2px 5px #FF0000, 1px 1px 5px goldenrod;
+}
+nav ul{
+  list-style: none;
+  background-color: rgba(0, 0,0, 0);
+ overflow: hidden;
+ color: blue;
+ padding: 0;
+ text-align: center;
+ margin: 0;
+  
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a{
+  text-decoration-line: underline;
+  
+  color: blue;
+  font-size: 18px;
+  font-family: cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.wrapper ul li a:hover {
+  color:gold;
+  background-color: black;
+  border-bottom: 6px solid grey;
+}
+
+h2{
+    text-align: center;
+    background-color: blanchedalmond;
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+    font-weight: 900;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-shadow: 2px 2px 5px #FF0000, 1px 1px 5px goldenrod;
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(168, 155, 129);
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+    text-shadow: 2px 2px 5px #FF0000, 1px 1px 5px goldenrod;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+#biography{
+   
+   
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0,0.6);
+  }
+
+  p{
+    color: white;
+    text-decoration-color: black;
+    text-shadow:2px 2px  black;
+}
